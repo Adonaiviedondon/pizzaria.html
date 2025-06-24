@@ -1,3 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --main-color:#e41b11;
+    --bg:#111116;
+    --bg-card:#09090f;
+    --border:0.1rem solid rgba(255,255,255,0.3);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+
+html{
+    font-size:62.6%;
+    overflow-x:hidden ;
+    scroll-padding-top:9rem;
+    scroll-behavior:smooth;
+}
+
+html::-webkit-scrollbar{
+    width: 0.8rem;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #fff;
+    border-radius:5rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+body{
+    background-color: var(--bg);
+}
+
+section{
+    padding: 2rem 7%;
+}
+
+.heading{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+
+.heading span{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
