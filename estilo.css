@@ -59,10 +59,20 @@ section{
     color: var(--main-color);
     text-transform: uppercase;
 }
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    font-size: 0.7rem;
+    color: #fff;
+    background-color: var(--main-color);
+    cursor:pointer;
+}
+.btn:hover{
+    letter-spacing: 0.2rem;
+}
 
-
-
-
+/*header*/
 
 
 
