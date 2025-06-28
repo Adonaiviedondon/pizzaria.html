@@ -17,7 +17,7 @@
     <a href="">
        <img src="imagens/logo.jpg" alt="logo">
     </a>
-    <nav>
+    <nav class="navbar">
         <a href="#home">home</a>
         <a href="#about">sobre</a>
         <a href="#menu">menu</a>
@@ -25,33 +25,36 @@
         <a href="#review">avaliações</a>
     </nav>       
     
-    <div>
+    <div class="icons">
         <div><ion-icon name="person"></ion-icon></div>
         <div><ion-icon name="search"></ion-icon></div>
         <div><ion-icon name="cart"></ion-icon></div>
-        <div><ion-icon name="menu"></ion-icon></div>
+        <div id="menu-btn"><ion-icon name="menu"></ion-icon></div>
     </div>
 </header>
 
-<section id="home">
-    <div>
+<section class="home" id="home">
+    <div class="content">
         <h3>bem vindo a pizzaria</h3>
         <p>descubra o sabor de varias pizzas</p>
         <a href="#" class="btn">faça seu pedido</a>
     </div>
 </section>
 <!-- section#home>div>h3{Título}+p{Parágrafo de exemplo}+a[href="#"] -->
-<section id="about">
+<section class="about" id="about">
     <h1 class="heading"><span>Sobre</span>Nós</h1>
-    <div>
+
+    <div class="row">
+    <div class="image">
         <img src="imagens/logo.jpg" alt="pizzaria ads">
     </div>
 
-    <div>
+    <div class="content">
         <h3>o que torna pizza unica?</h3>
         <p>nessa pizzaria,não é só pizza, é ter uma experiencia incrivel</p>
-        <p>os nossos ingredientes são selecionados comk todo cuidado atendendo as experiencias de cada cliente </p>
+        <p>os nossos ingredientes são selecionados com todo cuidado atendendo as experiencias de cada cliente </p>
         <a href="#" class="btn">saiba mais</a>
+    </div>
     </div>
 </section>
 <!-- section#about>h1>span^^div>img[src="" alt=""] -->
